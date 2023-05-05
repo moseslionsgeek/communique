@@ -1,0 +1,10 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+$black : #051f38;
+$blue: #076460;
+$dark:#332b2b ;
+
+$moses-colors :("black" : $black ,"blue" : $blue , "dark": $dark ,)
+
+$theme-colors : map-merge ($theme-colors , $custom-colors)
