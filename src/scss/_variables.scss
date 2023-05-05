@@ -5,6 +5,6 @@ $black : #051f38;
 $blue: #076460;
 $dark:#332b2b ;
 
-$moses-colors :("black" : $black ,"blue" : $blue , "dark": $dark ,)
+$moses-colors :("black" : $black ,"blue" : $blue , "dark": $dark ,);
 
-$theme-colors : map-merge ($theme-colors , $custom-colors)
+$theme-colors : map-merge ($theme-colors , $custom-colors);
