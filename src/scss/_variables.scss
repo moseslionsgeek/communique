@@ -12,4 +12,6 @@ $custom-colors: (
   "beige": $beige
 );
 
-$theme-colors: map-merge($theme-colors, $custom-colors);
+$moses-colors :("black" : $black ,"blue" : $blue , "dark": $dark ,)
+
+$theme-colors : map-merge ($theme-colors , $custom-colors)
